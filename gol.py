@@ -120,12 +120,12 @@ def draw_board():
 
 
 def run():
+    
+    from random import random
 
     # Generate a random board of cells
     for row in board:
         for cell in row:
-            from random import random
-
             board[cell[0]][cell[1]][2] = round(random())
 
     # -------- Main Program Loop -----------
