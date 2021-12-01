@@ -38,7 +38,7 @@ The following instructions should get a demo going on your PC.
 1. Clone the repo
 
    ```
-   git clone https://github.com/faton/game-of-life.git
+   git clone https://github.com/fatonhoti/game-of-life.git
    cd game-of-life
    ```
 3. Install relevant packages
