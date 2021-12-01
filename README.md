@@ -1,6 +1,53 @@
-# Conway's Game of Life
-A basic implementation.
+<div id="top"></div>
 
-To run the program simply type `python gol.py`.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Conway's Game of Life</h3>
+
+  <p align="center">
+    A basic implementation of Conway's Game of Life using Python and Pygame.
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+### Built With
+
+* [Pygame](https://www.pygame.org/news)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+The following instructions should get a demo going on your PC.
+
+### Installation
+
+1. Clone the repo
+
+   ```
+   git clone https://github.com/faton/game-of-life.git
+   cd game-of-life
+   ```
+3. Install relevant packages
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the game
+   ```
+   python gol.py
+   ```
 
 ![A picture of the game in action](images/gol.png)
